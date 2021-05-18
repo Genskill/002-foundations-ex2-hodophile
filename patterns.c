@@ -5,7 +5,6 @@ int main(void){
 	int type = get_int(" ");
 	int rows = get_int(" ");
 	if(type == 1){
-		printf("\n");
 		for(int i=rows;i>0;i--){
 			for(int j=0;j<i;j++){
 				printf("#");
